@@ -1,0 +1,30 @@
+{
+    "name": "aiz-packages/color-code-converter",
+    "description": "HEX code coverted to RGB color code",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Shifat Hossain",
+            "email": "amithassan3229@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AizPackages\\ColorCodeConverter\\": "src/"
+        }
+    },
+    "extras": {
+        "laravel": {
+            "provders": [
+                "AizPackages\\ColorCodeConverter\\Providers\\ColorCodeConverterProvider"
+            ]
+        }
+
+    },
+    "minimum-stability": "dev"
+}
