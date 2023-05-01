@@ -2,6 +2,8 @@
 
 namespace AizPackages\ColorCodeConverter\Services;
 
+use App\Models\Addon;
+
 class ColorCodeConverter {
 
     public function convertHexToRgba($color, $opacity = false) {
